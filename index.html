@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#18322c" />
+  <meta name="description" content="Marechal Pães e Doces — padaria, café da manhã e doceria em Cuiabá." />
+  <title>Marechal Pães e Doces</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#inicio" aria-label="Marechal Pães e Doces — início">
+      <span class="brand-logo brand-logo--header" aria-hidden="true"></span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#experiencia">Experiência</a>
+      <a href="#sabores">Sabores</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#localizacao">Visite</a>
+    </nav>
+
+    <a class="header-cta" href="https://wa.me/556521271509" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+      <img src="assets/images/whatsapp.png" alt="" />
+      <span>Fale conosco</span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+      <i data-lucide="menu"></i>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <div class="mobile-menu-head">
+        <span class="brand-logo brand-logo--menu" aria-label="Marechal Pães e Doces"></span>
+        <button class="menu-close" id="menuClose" aria-label="Fechar menu"><i data-lucide="x"></i></button>
+      </div>
+      <nav aria-label="Menu móvel">
+        <a href="#experiencia"><span>01</span> Experiência</a>
+        <a href="#sabores"><span>02</span> Sabores</a>
+        <a href="#galeria"><span>03</span> Galeria</a>
+        <a href="#avaliacoes"><span>04</span> Avaliações</a>
+        <a href="#localizacao"><span>05</span> Visite</a>
+      </nav>
+      <a class="mobile-whatsapp" href="https://wa.me/556521271509" target="_blank" rel="noopener">
+        <img src="assets/images/whatsapp.png" alt="" />
+        Conversar no WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/images/hero.webp" alt="" fetchpriority="high" />
+        <div class="hero-shade"></div>
+      </div>
+
+      <div class="hero-content container">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> desde cedo, todos os dias</div>
+          <h1>Tradição que chega à mesa <em>quente.</em></h1>
+          <p>Padaria, café da manhã e doceria em um endereço clássico de Cuiabá. Fornadas, vitrines generosas e aquele café que resolve a manhã sem fazer discurso motivacional.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#sabores">Descobrir sabores <i data-lucide="arrow-down-right"></i></a>
+            <a class="btn btn-ghost" href="#localizacao">Como chegar <i data-lucide="map-pin"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit-card orbit-card--one tilt-card">
+            <img src="assets/images/coffee.webp" alt="" />
+            <span>Café & pausa</span>
+          </div>
+          <div class="orbit-card orbit-card--two tilt-card">
+            <img src="assets/images/pastry.webp" alt="" />
+            <span>Vitrine doce</span>
+          </div>
+          <div class="rating-chip">
+            <strong>4,4</strong>
+            <div><span>★★★★★</span><small>2.946 avaliações</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom container">
+        <div class="hero-meta"><i data-lucide="clock-3"></i><span>Seg–sáb 06:00–20:00 · Dom 06:00–15:00</span></div>
+        <div class="scroll-cue"><span>Role para explorar</span><i data-lucide="arrow-down"></i></div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>PADARIA ARTESANAL</span><b>✦</b><span>CAFÉ DA MANHÃ</span><b>✦</b><span>DOCERIA</span><b>✦</b><span>CUiABÁ</span><b>✦</b>
+        <span>PADARIA ARTESANAL</span><b>✦</b><span>CAFÉ DA MANHÃ</span><b>✦</b><span>DOCERIA</span><b>✦</b><span>CUIABÁ</span><b>✦</b>
+      </div>
+    </div>
+
+    <section class="experience section" id="experiencia">
+      <div class="container experience-grid">
+        <div class="section-intro reveal">
+          <span class="kicker">A experiência</span>
+          <h2>Um lugar feito para <em>ficar mais um pouco.</em></h2>
+          <p>Entre balcões cheios, mesas acolhedoras e o movimento de quem começa cedo, a Marechal mistura padaria clássica e café contemporâneo sem apagar o que já funciona.</p>
+          <div class="facts">
+            <div><strong>4,4</strong><span>nota no Google</span></div>
+            <div><strong>2.946</strong><span>avaliações</span></div>
+            <div><strong>06h</strong><span>abertura diária</span></div>
+          </div>
+        </div>
+
+        <div class="experience-stack reveal">
+          <figure class="photo-card photo-card--large tilt-card">
+            <img src="assets/images/bakery-counter.webp" alt="Balcão da Marechal Pães e Doces" loading="lazy" />
+            <figcaption><span>01</span> Vitrine para escolher sem pressa</figcaption>
+          </figure>
+          <figure class="photo-card photo-card--small tilt-card">
+            <img src="assets/images/brand-card.webp" alt="Identidade visual Marechal Pães e Doces" loading="lazy" />
+            <figcaption><span>02</span> Um clássico da cidade</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="flavors section" id="sabores">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="kicker">Da vitrine à mesa</span>
+            <h2>Sabores para qualquer <em>hora do dia.</em></h2>
+          </div>
+          <p>Uma seleção que representa a variedade da Marechal: cafés, doces, salgados, refeições rápidas e fornadas frescas preparadas para diferentes momentos do dia.</p>
+        </div>
+
+        <div class="flavor-grid carousel-track carousel-track--flavors" id="flavorTrack" data-carousel-mode="mobile">
+          <article class="flavor-card flavor-card--featured reveal tilt-card">
+            <img src="assets/images/breakfast.webp" alt="Mesa de café da manhã" loading="lazy" />
+            <div class="flavor-overlay"></div>
+            <div class="flavor-content"><span>01</span><h3>Café da manhã</h3><p>Começos de dia com mesa cheia e café passado.</p></div>
+          </article>
+          <article class="flavor-card reveal tilt-card">
+            <img src="assets/images/savory.webp" alt="Salgados assados" loading="lazy" />
+            <div class="flavor-overlay"></div>
+            <div class="flavor-content"><span>02</span><h3>Salgados & fornadas</h3><p>Opções para um lanche rápido ou uma pausa maior.</p></div>
+          </article>
+          <article class="flavor-card reveal tilt-card">
+            <img src="assets/images/cake.webp" alt="Bolo recheado" loading="lazy" />
+            <div class="flavor-overlay"></div>
+            <div class="flavor-content"><span>03</span><h3>Bolos & doces</h3><p>Opções doces para diferentes momentos, com variedade e apresentação cuidadosa.</p></div>
+          </article>
+          <article class="flavor-card reveal tilt-card">
+            <img src="assets/images/focaccia.webp" alt="Fornada de pães e salgados" loading="lazy" />
+            <div class="flavor-overlay"></div>
+            <div class="flavor-content"><span>04</span><h3>Pães & assados</h3><p>Texturas e recheios preparados para valorizar sabor, frescor e variedade.</p></div>
+          </article>
+        </div>
+        <div class="carousel-pagination carousel-pagination--flavors" data-carousel-dots="flavorTrack" aria-label="Progresso do carrossel de sabores"></div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="galeria">
+      <div class="container">
+        <div class="section-head section-head--gallery reveal">
+          <div>
+            <span class="kicker">Galeria</span>
+            <h2>Um pouco da <em>Marechal.</em></h2>
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-btn" data-carousel-prev="galleryTrack" aria-label="Anterior"><i data-lucide="arrow-left"></i></button>
+            <button class="carousel-btn" data-carousel-next="galleryTrack" aria-label="Próximo"><i data-lucide="arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-wrap reveal">
+        <div class="gallery-track drag-scroll carousel-track" id="galleryTrack" aria-label="Galeria de fotos">
+          <figure class="gallery-card"><img src="assets/images/pastries.webp" alt="Doces na vitrine" loading="lazy" /><figcaption><span>01</span> Doce</figcaption></figure>
+          <figure class="gallery-card gallery-card--wide"><img src="assets/images/table-spread.webp" alt="Mesa com variedade de alimentos" loading="lazy" /><figcaption><span>02</span> Mesa</figcaption></figure>
+          <figure class="gallery-card"><img src="assets/images/dessert-counter.webp" alt="Vitrine de sobremesas" loading="lazy" /><figcaption><span>03</span> Vitrine</figcaption></figure>
+          <figure class="gallery-card"><img src="assets/images/buffet.webp" alt="Buffet e ambiente" loading="lazy" /><figcaption><span>04</span> Buffet</figcaption></figure>
+          <figure class="gallery-card gallery-card--wide"><img src="assets/images/buffet-counter.webp" alt="Balcão de buffet" loading="lazy" /><figcaption><span>05</span> Variedade</figcaption></figure>
+          <figure class="gallery-card"><img src="assets/images/dessert.webp" alt="Sobremesa" loading="lazy" /><figcaption><span>06</span> Final doce</figcaption></figure>
+        </div>
+      </div>
+      <div class="container carousel-meta-row">
+        <div class="drag-hint"><i data-lucide="move-horizontal"></i> deslize para o lado</div>
+        <div class="carousel-pagination" data-carousel-dots="galleryTrack" aria-label="Progresso da galeria"></div>
+      </div>
+    </section>
+
+    <section class="statement section">
+      <div class="container statement-inner reveal">
+        <div class="statement-mark">M</div>
+        <blockquote>“Café bom não precisa complicar. Precisa chegar quente, acompanhado e na hora certa.”</blockquote>
+        <div class="statement-line"></div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="avaliacoes">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="kicker">Quem já passou por aqui</span>
+            <h2>Avaliações <em>reais.</em></h2>
+          </div>
+          <div class="review-head-side">
+            <div class="review-score"><strong>4,4</strong><span>★★★★★</span><small>Google · 2.946 avaliações</small></div>
+            <div class="carousel-controls carousel-controls--reviews">
+              <button class="carousel-btn" data-carousel-prev="reviewsTrack" aria-label="Avaliação anterior"><i data-lucide="arrow-left"></i></button>
+              <button class="carousel-btn" data-carousel-next="reviewsTrack" aria-label="Próxima avaliação"><i data-lucide="arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews-track drag-scroll reveal carousel-track" id="reviewsTrack">
+          <article class="review-card">
+            <div class="review-top"><span>★★★★★</span><i data-lucide="quote"></i></div>
+            <p>“Excelentes salgados. Ambiente aconchegante e muito elegante. Recomendo.”</p>
+            <div class="review-author"><strong>Willer Marinho</strong><span>Google · 5 estrelas</span></div>
+          </article>
+          <article class="review-card">
+            <div class="review-top"><span>★★★★★</span><i data-lucide="quote"></i></div>
+            <p>“A comida excelente e o ambiente confortável.”</p>
+            <div class="review-author"><strong>Vilma Leite</strong><span>Google · 5 estrelas</span></div>
+          </article>
+          <article class="review-card">
+            <div class="review-top"><span>★★★★☆</span><i data-lucide="quote"></i></div>
+            <p>“Panificadora p/ lanches e refeições rápidas. Salgados, sanduíches, bolos, tortas doces e salgadas, pães variados, frios etc. Tudo muito gostoso.”</p>
+            <div class="review-author"><strong>Greyce Fatima de Almeida</strong><span>Google · 4 estrelas</span></div>
+          </article>
+          <article class="review-card">
+            <div class="review-top"><span>★★★★★</span><i data-lucide="quote"></i></div>
+            <p>“Ótimo lugar.”</p>
+            <div class="review-author"><strong>Paulo Maciel</strong><span>Google · 5 estrelas</span></div>
+          </article>
+        </div>
+        <div class="carousel-pagination carousel-pagination--reviews" data-carousel-dots="reviewsTrack" aria-label="Progresso das avaliações"></div>
+      </div>
+    </section>
+
+    <section class="visit section" id="localizacao">
+      <div class="container visit-grid">
+        <div class="visit-copy reveal">
+          <span class="kicker">Visite a Marechal</span>
+          <h2>Seu próximo café <em>fica aqui.</em></h2>
+          <div class="visit-info">
+            <div><i data-lucide="map-pin"></i><p><strong>Endereço</strong><span>Av. Mal. Deodoro, 1231<br />Centro Norte, Cuiabá - MT</span></p></div>
+            <div><i data-lucide="phone"></i><p><strong>Telefone</strong><span>(65) 2127-1509</span></p></div>
+            <div><i data-lucide="clock-3"></i><p><strong>Horários</strong><span>Seg–sáb · 06:00–20:00<br />Dom · 06:00–15:00</span></p></div>
+          </div>
+          <div class="visit-actions">
+            <a class="btn btn-primary btn-dark" href="https://www.google.com/maps/search/?api=1&query=Marechal%20P%C3%A3es%20e%20Doces&query_place_id=ChIJKYLFC5qxnZMR44MBy9jS8d4" target="_blank" rel="noopener">Abrir no Maps <i data-lucide="navigation"></i></a>
+            <a class="btn btn-whatsapp" href="https://wa.me/556521271509" target="_blank" rel="noopener"><img src="assets/images/whatsapp.png" alt="" /> WhatsApp</a>
+          </div>
+        </div>
+        <div class="map-card reveal">
+          <iframe title="Mapa da Marechal Pães e Doces" tabindex="-1" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Marechal%20P%C3%A3es%20e%20Doces%2C%20Av.%20Mal.%20Deodoro%2C%201231%2C%20Centro%20Norte%2C%20Cuiab%C3%A1%20-%20MT&z=17&output=embed"></iframe>
+          <div class="map-label"><span>Marechal</span><small>Pães e Doces · Cuiabá</small></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <span class="brand-logo brand-logo--footer" aria-label="Marechal Pães e Doces"></span>
+        <p>Padaria · Café da manhã · Doceria</p>
+      </div>
+      <div class="footer-links">
+        <a href="#experiencia">Experiência</a><a href="#sabores">Sabores</a><a href="#galeria">Galeria</a><a href="#localizacao">Localização</a>
+      </div>
+      <div class="footer-contact">
+        <span>Av. Mal. Deodoro, 1231 · Cuiabá</span>
+        <span>(65) 2127-1509</span>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Marechal Pães e Doces</span><a href="#inicio" class="back-top">Voltar ao topo <i data-lucide="arrow-up"></i></a></div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/556521271509" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+    <img src="assets/images/whatsapp.png" alt="" />
+  </a>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
